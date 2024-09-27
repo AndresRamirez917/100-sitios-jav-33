@@ -116,6 +116,24 @@ form .form-control {
     margin-bottom: 1em;
 }
 
+.card-3 p {
+    width: 200px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: rgba(242, 73, 73, 0.678);
+}
+
+.card-1 p {
+    width: 200px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+background-repeat: no-repeat; 
+}
+
+
+
 /* mainheader */
 #mainheader {
     background: #1c1c1c;
@@ -209,6 +227,10 @@ img {
 
 .speakers-row h4 {
     margin-bottom: 6em;
+}
+
+#speakers img{
+    border-radius: 5px;
 }
 
 /* ticket */
