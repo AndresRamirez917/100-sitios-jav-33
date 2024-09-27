@@ -1,0 +1,20 @@
+[
+  {
+    "color": "white",
+    "type": "cat",
+    "size": "nano",
+    "name": "Renata"
+  },
+  {
+    "color": "gray",
+    "type": "cat",
+    "size": "nano",
+    "name": "Gris"
+  },
+  {
+    "color": "brown",
+    "type": "cat",
+    "size": "nano",
+    "name": "Neko"
+  }
+]

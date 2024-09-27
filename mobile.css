@@ -1,0 +1,35 @@
+.navbar .logo {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.navbar ul {
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.navbar ul li {
+    display: inline-block;
+float: none;
+margin-top: 2em;
+font-size: .9em;
+}
+
+#about .about-row{
+    display: block;
+    gap: 10px;
+}
+
+#event p {
+    margin: 0;
+    text-align: left;
+}
+
+#speakers .speakers-row {
+    display: block;
+}

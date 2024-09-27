@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1em;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.current {
+  color: #ea2bb2;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+  
+}
+
+.display-2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 3em 0;
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+.container {
+    max-width: 1300px;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+form .form-group {
+    margin-bottom: 1em;
+    color: #fff;
+}
+
+form .form-control {
+    padding: 1em;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.btn {
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-1 {
+    background: red;
+    color: #fff;
+    margin-bottom: 2em;
+}
+
+.button-1:hover {
+    background: rgb(249, 61, 61);
+}
+
+.button-2 {
+    border: 1px solid dimgray;
+    color: dimgray;
+    background: none;
+}
+
+.button-2:hover {
+    background: rgb(60, 60, 60);
+}
+
+.card {
+    border: 1px solid #ffffff71;
+    border-radius: 4px;
+    padding: 30px;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    margin-bottom: 1em;
+}
+
+.card p {
+    margin-bottom: 1em;
+}
+
+/* mainheader */
+#mainheader {
+    background: #1c1c1c;
+}
+
+/* navbar */
+.navbar .logo {
+    margin-top: 1em;
+    float: left;
+    font-size: 1em;
+}
+
+.navbar ul {
+    float: right;
+    margin-top: 2em;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 2em;
+}
+
+/* showcase */
+ #showcase h1 {
+    margin-top: 4.5em;
+   font-size: 3.5em;
+}
+
+#showcase button {
+text-align: center;
+margin: 0 auto;
+display: block;
+margin-bottom: 10em ;
+margin-top: 2em;
+}
+
+/* about */
+#about {
+    background:#363535 ;
+}
+
+#about .about-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2em;
+}
+
+/* events */
+#event {
+    background: #1c1c1c;
+}
+
+#event h2 {
+    margin: 0;
+    text-align: left;
+    margin: 1em 0;
+}
+
+#event p {
+    margin-bottom: 4em;
+    color: #fff;
+    text-align: left;
+}
+
+/* speakers */
+#speakers {
+    background: #363535;
+}
+
+#speakers img {
+    width: 100%;
+}
+
+#speakers .speakers-row {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+.speakers-row h3, h4 {
+    color: #fff;
+    margin: 1em 0 1em 0;
+}
+
+.speakers-row h4 {
+    margin-bottom: 6em;
+}
+
+/* ticket */
+#ticket {
+    background: #1c1c1c;
+    color: #fff;
+}
+
+#ticket h2, p, button {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin-bottom: 2em;
+    
+}
+
+#ticket h2 {
+    margin-top: 2em;
+}
+
+/* footer */
+#footer {
+    text-align: center;
+    padding: 3em;
+    background: #363535;
+}
